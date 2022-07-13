@@ -7,8 +7,18 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp4.Concrete
 {
-    public class WindowsButton:IButton
+    public class WindowsButton : IButton
     {
+        public void OnClick()
+        {
+            Console.WriteLine("Windows Button ONClick");
 
+        }
+
+        public void Render()
+        {
+            Console.WriteLine("Windows Button Render");
+
+        }
     }
 }

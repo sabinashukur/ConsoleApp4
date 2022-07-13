@@ -11,12 +11,12 @@ namespace ConsoleApp4.Concrete
     {
         public void OnClick()
         {
-            Console.WriteLine("ONClick");
+            Console.WriteLine(" HMTL Button ONClick");
         }
 
         public void Render()
         {
-            Console.WriteLine("Render");
+            Console.WriteLine(" HMTL Button  Render");
 
         }
     }
